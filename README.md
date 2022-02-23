@@ -12,7 +12,7 @@ To implement the project correctly, I used the Vuforia developer portal to uploa
 `BackCover.jpg` - image of the back cover of Murach's MySQL 3rd Edition textbook used for Vuforia image target
 
 # How to Run the Demo:
-...
+The Unity Project is located on my Vanderbilt Box account. In Unity, simply click open project and select AR Book Cover. Then run the project and test (if you have the MySQL textbook).
 
 # Limitations:
 There are no notable limitation, but adjusting the VirtualButton instance sensitivity can lead to difficulty toggling the book description and review of the book which are attached to the back cover image target. In my project, I used Medium sensitivity so toggling was easily detected by a hand touch to the bottom-right of the back cover of the textbook.
