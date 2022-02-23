@@ -4,13 +4,15 @@
 
 In this project, I use Unity Version 2020.3.27f1 (Personal) and the Unity Vuforia SDK Version 10.5.5 to create an AR Book Cover for my Database Management Systems textbook. This project was implemented using a 2015 Macbook Pro and the laptop's web camera.
 
+To implement the project correctly, I used the Vuforia developer portal to upload front and back image covers of the Murach's MySQL 3rd Edition textbook. After that, I created two instances of Vuforia ImageTarget in the Unity environment and edited their properties to reflect the database images I uploaded in the Vuforia portal. Next, I added a virtual scene of a pen, pencil, eraser, and notebook around the text on the front cover. Finally, I created a Vuforia VirtualButton in the back cover ImageTarget instance that toggles between a book description and a review of the book itself.
+
 # Project Repository:
 
-1. `images` - contains the front and back book cover images
-2. `project` - contains the Unity project demo for the AR book cover
+`FrontCover.jpg` - image of the front cover of Murach's MySQL 3rd Edition textbook used for Vuforia image target
+`BackCover.jpg` - image of the back cover of Murach's MySQL 3rd Edition textbook used for Vuforia image target
 
 # How to Run the Demo:
 ...
 
 # Limitations:
-...
+There are no notable limitation, but adjusting the VirtualButton instance sensitivity can lead to difficulty toggling the book description and review of the book which are attached to the back cover image target. In my project, I used High sensitivity so toggling was easily detected by a hand touch to the bottom-right of the back cover of the textbook.
