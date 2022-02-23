@@ -15,4 +15,4 @@ To implement the project correctly, I used the Vuforia developer portal to uploa
 ...
 
 # Limitations:
-There are no notable limitation, but adjusting the VirtualButton instance sensitivity can lead to difficulty toggling the book description and review of the book which are attached to the back cover image target. In my project, I used High sensitivity so toggling was easily detected by a hand touch to the bottom-right of the back cover of the textbook.
+There are no notable limitation, but adjusting the VirtualButton instance sensitivity can lead to difficulty toggling the book description and review of the book which are attached to the back cover image target. In my project, I used Medium sensitivity so toggling was easily detected by a hand touch to the bottom-right of the back cover of the textbook.
